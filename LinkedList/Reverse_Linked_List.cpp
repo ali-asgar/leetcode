@@ -21,12 +21,32 @@ A linked list can be reversed either iteratively or recursively. Could you imple
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
  */
+
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     ListNode *next;
+ *     ListNode() : val(0), next(nullptr) {}
+ *     ListNode(int x) : val(x), next(nullptr) {}
+ *     ListNode(int x, ListNode *next) : val(x), next(next) {}
+ * };
+ */
+
 class Solution {
 public:
     ListNode* reverseList(ListNode* head) {
         if (!head) return NULL;
         if (!head -> next) return head;
+
+        //Recursive
+/*	    ListNode* nextNode = head -> next;
+	    head -> next = NULL;
+	    ListNode* prevNode = reverseList(nextNode);
+	    nextNode -> next = head; 
+	return prevNode;      */   
         
+        //Iterative
         ListNode* prevNode = NULL; 
         while (head != NULL) {
             ListNode* nextNode = head -> next;
@@ -34,9 +54,6 @@ public:
             prevNode = head;
             head = nextNode;
         }
-        return prevNode;
+        return prevNode; 
     }
 };
-            
-            
-     
