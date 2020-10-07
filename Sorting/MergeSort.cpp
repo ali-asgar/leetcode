@@ -1,6 +1,5 @@
-/* C program for Merge Sort */
-#include <stdio.h> 
-#include <stdlib.h> 
+/* C++ program for Merge Sort */
+#include <iostream>
 
 void merge(int arr[], int l, int m, int r) 
 { 
