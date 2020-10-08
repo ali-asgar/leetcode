@@ -11,14 +11,14 @@ void swap(int* a, int* b) {
 
 int part(int arr[], int l, int h) { 
 	int p = arr[h]; 
-	int i = l;
+	int b = l;
 
-	for (int j = l; j < h; j++) { 
-		if (arr[j] <= p) 
-			swap(&arr[i++], &arr[j]); 
+	for (int i = l; i < h; i++) { 
+		if (arr[i] <= p) 
+			swap(&arr[b++], &arr[i]); 
 	} 
-	swap(&arr[i], &arr[h]); 
-	return (i); 
+	swap(&arr[b], &arr[h]); 
+	return b; 
 } 
 
 void quickSort(int arr[], int l, int h) { 
