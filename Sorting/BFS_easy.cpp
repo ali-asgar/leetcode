@@ -64,4 +64,6 @@ int main()
     cout<<"Enter vertex from where to perform BFS"<<endl;
     cin>>v;
     g.BFS(v);
+    
+    return 0;
 }
