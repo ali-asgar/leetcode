@@ -129,4 +129,6 @@ https://www.youtube.com/playlist?list=PLGLfVvz_LVvSaXCpKS395wbCcmsmgRea7
 105 STL Algorithms in Less Than an Hour
 https://youtu.be/bFSnXNIsK4A
 
-
+An image has basic coding questions in college
+https://qph.fs.quoracdn.net/main-qimg-b9384ff3924e237f60d7003b3b43cbc2-c
+https://www.quora.com/How-are-students-in-Indian-colleges-taught-programming
