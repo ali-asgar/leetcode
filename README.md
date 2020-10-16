@@ -55,3 +55,23 @@ Since the algorithms are not mentioned in the description of the video, here are
 8. Recursion
 9. Custom Data structure (ex. suffix tree )
 10.Binary Search
+
+https://github.com/yangshun/tech-interview-handbook
+https://github.com/yangshun/front-end-interview-handbook
+
+https://github.com/kdn251/interviews
+
+###The 30-minute guide to rocking your next coding interview
+https://www.freecodecamp.org/news/coding-interviews-for-dummies-5e048933b82b/
+Graph search algorithms
+Common: Breadth first search (BFS), Depth first search (DFS)
+Uncommon: Topological sort, Dijkstra’s algorithm
+Rare: Bellman-Ford algorithm, Floyd-Warshall algorithm, Prim’s algorithm, and Kruskal’s algorithm
+
+Corner Cases
+Empty graph
+Graph with one or two nodes
+Disjoint graphs
+Graph with cycles
+
+
