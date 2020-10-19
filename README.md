@@ -42,7 +42,7 @@ Top 10 Algorithms for coding interview.
 7. Sorting fundamentals  (quicksort, mergesort, bubblesort techniques, runtime of a sort, time & space complexity, functioning, etc.)
 8. Recursion
 9. Custom Data structure (ex. suffix tree, object oriented programming)
-10.Binary Search
+10. Binary Search
 
 
 ### The 30-minute guide to rocking your next coding interview
