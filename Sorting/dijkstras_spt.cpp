@@ -70,5 +70,8 @@ Vertex           Distance from Source
 6                9                                                                                                                                                                   
 7                8                                                                                                                                                                   
 8                14                                                                                                                                                                  
-                              
+
+Time Complexity - O(V^2). 
+Adjacency list, O(E log V) with binary heap.
+
 */                              
