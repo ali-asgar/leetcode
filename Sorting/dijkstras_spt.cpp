@@ -2,7 +2,6 @@
 // https://www.geeksforgeeks.org/dijkstras-algorithm-for-adjacency-list-representation-greedy-algo-8/
 // https://www.geeksforgeeks.org/dijkstras-shortest-path-algorithm-using-priority_queue-stl/
 // https://www.geeksforgeeks.org/dijkstras-shortest-path-algorithm-using-set-in-stl/
-// 
 
 // A C++ program for Dijkstra's single source shortest path algorithm. 
 
