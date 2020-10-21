@@ -3,7 +3,9 @@ Leetcode solutions in C++
 
 60 LeetCode problems to solve for coding interview
 https://medium.com/@koheiarai94/60-leetcode-questions-to-prepare-for-coding-interview-8abbb6af589e
-https://leetcode.com/list/xo2bgr0r/     60 LeetCode problems to solve
+https://leetcode.com/list/xo2bgr0r/     
+
+60 LeetCode problems to solve
 https://docs.google.com/spreadsheets/d/1Y98QKaYPazWImEt1nA_ocpGNJ-yQjH1FAsVQhUQ7OTw/edit#gid=0    Google Spreadsheet
 https://leetcode.com/discuss/general-discussion/390646/I-Leetcoded-(And-So-Can-You!)/353093
 
