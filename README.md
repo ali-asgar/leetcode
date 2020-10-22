@@ -6,9 +6,7 @@ https://medium.com/@koheiarai94/60-leetcode-questions-to-prepare-for-coding-inte
 https://leetcode.com/list/xo2bgr0r/     
 
 60 LeetCode problems to solve
-https://docs.google.com/spreadsheets/d/1Y98QKaYPazWImEt1nA_ocpGNJ-yQjH1FAsVQhUQ7OTw/edit#gid=0    
-
-Google Spreadsheet
+https://docs.google.com/spreadsheets/d/1Y98QKaYPazWImEt1nA_ocpGNJ-yQjH1FAsVQhUQ7OTw/edit#gid=0    Google Spreadsheet
 https://leetcode.com/discuss/general-discussion/390646/I-Leetcoded-(And-So-Can-You!)/353093
 
 https://github.com/topics/algoexpert
