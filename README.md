@@ -1,4 +1,4 @@
-### 450 Interview Question Table
+### 450 Technical Interview coding questions in google sheet
 https://drive.google.com/file/d/1xQS6w9qLvj0K4x2YlI-XFEGX8N6jH9pH/view?usp=sharing
 
 
