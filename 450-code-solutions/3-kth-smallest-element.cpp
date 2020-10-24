@@ -1,4 +1,5 @@
 // https://practice.geeksforgeeks.org/problems/kth-smallest-element/0
+// https://www.geeksforgeeks.org/kth-smallestlargest-element-unsorted-array/
 
 #include <iostream>
 #include <algorithm>
