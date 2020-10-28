@@ -13,7 +13,7 @@ class Stack {
 public: 
 	int a[1000];
 
-	Stack() { topIndex = -1; } 
+	Stack()      { topIndex = -1; } 
 	bool empty() { return (topIndex < 0); } 
 	int size()
 	{
@@ -26,15 +26,15 @@ public:
 	    return a[topIndex];
 	}
 	void push(int x)
-    { 
-    	if (topIndex > 1000) { cout << "\nStack Overflow"; return; } 
-    	a[++topIndex] = x; 
-    } 
+	{ 
+    	    if (topIndex > 1000) { cout << "\nStack Overflow"; return; } 
+    	    a[++topIndex] = x; 
+    	}
 	void pop()
 	{ 
-    	if (topIndex < 0) { cout << "\nStack Underflow"; return; }
-    	topIndex--; 
-    } 
+    	    if (topIndex < 0) { cout << "\nStack Underflow"; return; }
+    	    topIndex--; 
+    	}
 }; 
 
 void showstack(class Stack s) //stack <int> s) 
