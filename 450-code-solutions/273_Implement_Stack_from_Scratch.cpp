@@ -1,64 +1,79 @@
 // https://www.tutorialspoint.com/javaexamples/data_stack.htm
 // https://www.geeksforgeeks.org/stack-data-structure-introduction-program/
-
-// Also
-// https://www.geeksforgeeks.org/stack-in-cpp-stl/
-// https://www.geeksforgeeks.org/stack-push-and-pop-in-c-stl/
-// https://www.geeksforgeeks.org/stack-top-c-stl/
-// https://www.geeksforgeeks.org/stack-empty-and-stack-size-in-c-stl/
+// Also https://www.geeksforgeeks.org/stack-in-cpp-stl/
 
 /* C++ program to implement basic stack operations */
-#include <bits/stdc++.h> 
-
+#include <iostream>
+//#include <stack>
 using namespace std; 
 
-#define MAX 1000 
-
 class Stack { 
-	int top; 
+	int topIndex; 
 
 public: 
-	int a[MAX]; // Maximum size of Stack 
+	int a[1000];
 
-	Stack() { top = -1; } 
+	Stack() { topIndex = -1; } 
+	bool empty() { return (topIndex < 0); } 
+	int size()
+	{
+	    if (topIndex < 0) { cout << "\nStack is Empty"; return 0; } 
+	    return topIndex+1;
+	}
+	int top()
+	{
+	    if (topIndex < 0) { cout << "\nStack is Empty"; return 0; } 
+	    return a[topIndex];
+	}
 	void push(int x)
     { 
-    	if (top >= (MAX - 1)) { cout << "Stack Overflow"; return; } 
-    	a[++top] = x; 
-    	cout << x << " pushed into stack\n"; 
+    	if (topIndex > 1000) { cout << "\nStack Overflow"; return; } 
+    	a[++topIndex] = x; 
     } 
-	int pop()
+	void pop()
 	{ 
-    	if (top < 0) { cout << "Stack Underflow"; return 0; }
-    	return a[top--]; 
+    	if (topIndex < 0) { cout << "\nStack Underflow"; return; }
+    	topIndex--; 
     } 
-	int peek()
-	{ 
-    	if (top < 0) { cout << "Stack is Empty"; return 0; } 
-    	return a[top]; 
-    } 
-	bool isEmpty() { return (top < 0); } 
 }; 
 
-// Driver program to test above functions 
-int main() 
+void showstack(class Stack s) //stack <int> s) 
 { 
-	class Stack s; 
+	while (!s.empty()) 
+	{ 
+		cout << '\t' << s.top(); 
+		s.pop(); 
+	} 
+	cout << '\n'; 
+} 
+
+int main () 
+{ 
+	class Stack s; // stack <int> s; 
 	s.push(10); 
-	s.push(20); 
 	s.push(30); 
-	cout << s.pop() << " Popped from stack\n"; 
-	cout << s.peek() << " is Peek of Stack\n";
-	cout << "Stack isEmpty ? " << s.isEmpty();
+	s.push(20); 
+	s.push(5); 
+	s.push(1); 
+
+	cout << "The stack is : "; 
+	showstack(s); 
+
+	cout << "\ns.size() : " << s.size(); 
+	cout << "\ns.top() : " << s.top(); 
+
+
+	cout << "\ns.pop() : "; 
+	s.pop(); 
+	showstack(s); 
 
 	return 0; 
 } 
 
 /*
-10 pushed into stack                                                                                                                                                               
-20 pushed into stack                                                                                                                                                               
-30 pushed into stack                                                                                                                                                               
-30 Popped from stack                                                                                                                                                               
-20 is Peek of Stack                                                                                                                                                                
-Stack isEmpty ? 0 
+The stack is :  1       5       20      30      10                                                                                                                                 
+                                                                                                                                                                                   
+s.size() : 5                                                                                                                                                                       
+s.top() : 1                                                                                                                                                                        
+s.pop() :       5       20      30      10   
 */
