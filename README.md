@@ -37,7 +37,8 @@ https://drive.google.com/file/d/1FMdN_OCfOI0iAeDlqswCiC2DZzD4nPsb/view
 https://www.programcreek.com/2012/11/top-10-algorithms-for-coding-interview/
 
 
-Top 10 Algorithms for coding interview.
+Top 10 Algorithms for coding interview :
+
 1. Depth First Search - DFS
 2. Breadth-First Search - BFS
 3. Matching Parenthesis problem
