@@ -1,6 +1,12 @@
 ### 450 Technical Interview coding questions in google sheet
 https://rb.gy/donwjd
 
+### OPERATING SYSTEM CheatSheet & Notes
+https://whimsical.com/operating-system-cheatsheet-by-love-babbar-S9tuWBCSQfzoBRF5EDNinQ
+
+### OOPS Concept ROADMAP | Complete OOPS for Placement Interviews
+https://whimsical.com/object-oriented-programming-cheatsheet-by-love-babbar-YbSgLatbWQ4R5paV7EgqFw
+
 # leetcode
 Leetcode solutions in C++
 
